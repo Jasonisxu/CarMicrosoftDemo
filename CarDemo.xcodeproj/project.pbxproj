@@ -21,6 +21,7 @@
 		902DFC8D208076F30063030F /* LXProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC8B208076F30063030F /* LXProgressHUD.swift */; };
 		902DFC92208077C00063030F /* ValueConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC91208077C00063030F /* ValueConstants.swift */; };
 		902DFC95208474370063030F /* APPDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC94208474370063030F /* APPDeviceInfo.swift */; };
+		902DFC9B2084766E0063030F /* Ext+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9A2084766E0063030F /* Ext+UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		902DFC8B208076F30063030F /* LXProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXProgressHUD.swift; sourceTree = "<group>"; };
 		902DFC91208077C00063030F /* ValueConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueConstants.swift; sourceTree = "<group>"; };
 		902DFC94208474370063030F /* APPDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPDeviceInfo.swift; sourceTree = "<group>"; };
+		902DFC9A2084766E0063030F /* Ext+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImage.swift"; sourceTree = "<group>"; };
 		D0C4C3915FBADC8C7D335D4F /* Pods_CarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 		902DFC88208076F30063030F /* SwiftTool */ = {
 			isa = PBXGroup;
 			children = (
+				902DFC96208475E50063030F /* Category */,
 				902DFC89208076F30063030F /* Helper */,
 			);
 			path = SwiftTool;
@@ -205,6 +208,14 @@
 			children = (
 			);
 			path = SwiftThirdKit;
+			sourceTree = "<group>";
+		};
+		902DFC96208475E50063030F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				902DFC9A2084766E0063030F /* Ext+UIImage.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		ACD44CCF9247AC337461F504 /* Pods */ = {
@@ -359,6 +370,7 @@
 				902DFC92208077C00063030F /* ValueConstants.swift in Sources */,
 				902DFC7A208072940063030F /* ApiPath.swift in Sources */,
 				902DFC79208072940063030F /* UploadImageModel.swift in Sources */,
+				902DFC9B2084766E0063030F /* Ext+UIImage.swift in Sources */,
 				902DFC8C208076F30063030F /* LXGCDHelper.swift in Sources */,
 				902DFC77208072940063030F /* RequestApi.swift in Sources */,
 			);
