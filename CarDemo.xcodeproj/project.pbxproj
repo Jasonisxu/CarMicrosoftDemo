@@ -24,6 +24,7 @@
 		902DFC9B2084766E0063030F /* Ext+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9A2084766E0063030F /* Ext+UIImage.swift */; };
 		902DFC9D20858C9E0063030F /* Ext+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */; };
 		902DFC9F20858D5F0063030F /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9E20858D5F0063030F /* Ext+UIView.swift */; };
+		902DFCA120858ECC0063030F /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA020858ECC0063030F /* Ext+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		902DFC9A2084766E0063030F /* Ext+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImage.swift"; sourceTree = "<group>"; };
 		902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImageView.swift"; sourceTree = "<group>"; };
 		902DFC9E20858D5F0063030F /* Ext+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
+		902DFCA020858ECC0063030F /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		D0C4C3915FBADC8C7D335D4F /* Pods_CarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -220,6 +222,7 @@
 				902DFC9A2084766E0063030F /* Ext+UIImage.swift */,
 				902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */,
 				902DFC9E20858D5F0063030F /* Ext+UIView.swift */,
+				902DFCA020858ECC0063030F /* Ext+String.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				902DFC79208072940063030F /* UploadImageModel.swift in Sources */,
 				902DFC9B2084766E0063030F /* Ext+UIImage.swift in Sources */,
 				902DFC8C208076F30063030F /* LXGCDHelper.swift in Sources */,
+				902DFCA120858ECC0063030F /* Ext+String.swift in Sources */,
 				902DFC77208072940063030F /* RequestApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
