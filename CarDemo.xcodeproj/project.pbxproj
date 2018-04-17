@@ -26,6 +26,7 @@
 		902DFC9F20858D5F0063030F /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9E20858D5F0063030F /* Ext+UIView.swift */; };
 		902DFCA120858ECC0063030F /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA020858ECC0063030F /* Ext+String.swift */; };
 		902DFCA320858FB50063030F /* Ext+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA220858FB50063030F /* Ext+UIButton.swift */; };
+		902DFCA5208597BA0063030F /* Ext+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA4208597BA0063030F /* Ext+UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		902DFC9E20858D5F0063030F /* Ext+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
 		902DFCA020858ECC0063030F /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		902DFCA220858FB50063030F /* Ext+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIButton.swift"; sourceTree = "<group>"; };
+		902DFCA4208597BA0063030F /* Ext+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIApplication.swift"; sourceTree = "<group>"; };
 		D0C4C3915FBADC8C7D335D4F /* Pods_CarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -226,6 +228,7 @@
 				902DFC9E20858D5F0063030F /* Ext+UIView.swift */,
 				902DFCA020858ECC0063030F /* Ext+String.swift */,
 				902DFCA220858FB50063030F /* Ext+UIButton.swift */,
+				902DFCA4208597BA0063030F /* Ext+UIApplication.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902DFCA5208597BA0063030F /* Ext+UIApplication.swift in Sources */,
 				902DFC9D20858C9E0063030F /* Ext+UIImageView.swift in Sources */,
 				902DFC8D208076F30063030F /* LXProgressHUD.swift in Sources */,
 				902DFC6D208051EB0063030F /* AppDelegate.swift in Sources */,
