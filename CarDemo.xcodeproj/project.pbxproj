@@ -25,6 +25,7 @@
 		902DFC9D20858C9E0063030F /* Ext+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */; };
 		902DFC9F20858D5F0063030F /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFC9E20858D5F0063030F /* Ext+UIView.swift */; };
 		902DFCA120858ECC0063030F /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA020858ECC0063030F /* Ext+String.swift */; };
+		902DFCA320858FB50063030F /* Ext+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902DFCA220858FB50063030F /* Ext+UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIImageView.swift"; sourceTree = "<group>"; };
 		902DFC9E20858D5F0063030F /* Ext+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
 		902DFCA020858ECC0063030F /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		902DFCA220858FB50063030F /* Ext+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIButton.swift"; sourceTree = "<group>"; };
 		D0C4C3915FBADC8C7D335D4F /* Pods_CarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -223,6 +225,7 @@
 				902DFC9C20858C9E0063030F /* Ext+UIImageView.swift */,
 				902DFC9E20858D5F0063030F /* Ext+UIView.swift */,
 				902DFCA020858ECC0063030F /* Ext+String.swift */,
+				902DFCA220858FB50063030F /* Ext+UIButton.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				902DFC6C208051EB0063030F /* ViewController.swift in Sources */,
 				902DFC95208474370063030F /* APPDeviceInfo.swift in Sources */,
 				902DFC78208072940063030F /* NetAPIManager.swift in Sources */,
+				902DFCA320858FB50063030F /* Ext+UIButton.swift in Sources */,
 				902DFC92208077C00063030F /* ValueConstants.swift in Sources */,
 				902DFC7A208072940063030F /* ApiPath.swift in Sources */,
 				902DFC9F20858D5F0063030F /* Ext+UIView.swift in Sources */,

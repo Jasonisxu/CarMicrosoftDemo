@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-extension UIImageView{
+extension UIImageView {
     
     /// 快速创建 imageView
     /// - parameter imgName:  图片名字
